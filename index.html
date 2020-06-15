@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>IGTI Desafio</title>
+  </head>
+  <body>
+    <header class="bg-dark">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-3 col-md-5 col-sm-3">
+            <h1 class="text-light">Desafio JS</h1>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <form>
+          <div class="form-group row justify-content-center p-5">
+            <input
+              type="text"
+              name="user"
+              placeholder="Buscar Usuário"
+              id="filterName"
+              class="form-control col-lg-3 col-md-5 col-sm-6"
+            />
+            <div class="col-lg-1 col-md-2 col-sm-2">
+              <button type="submit" id="btnFind" class="btn btn-dark">
+                Buscar
+              </button>
+            </div>
+          </div>
+        </form>
+
+        <div class="row justify-content-center">
+          <div class="users mr-3"></div>
+
+          <div class="statistics"></div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
