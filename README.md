@@ -21,6 +21,8 @@ Os alunos deverão desempenhar as seguintes atividades:
 7. No painel da esquerda, listar os usuários filtrados.
 8. No painel da direita, calcular e mostrar algumas estatísticas sobre esses usuários, conforme imagens abaixo.
 
+
+
 <p float="left">
   <img src="https://raw.githubusercontent.com/Maycon-Rodrigues/buscador-usuarios/master/screenshot.png" />
 </p>
