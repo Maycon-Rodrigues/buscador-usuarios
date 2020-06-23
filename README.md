@@ -8,7 +8,7 @@
 
 Criar uma aplicação para filtrar usuários e mostrar estatísticas a partir do filtro definido.
 
- ###### Ativida
+ ###### Atividade
 
 Os alunos deverão desempenhar as seguintes atividades:
 
